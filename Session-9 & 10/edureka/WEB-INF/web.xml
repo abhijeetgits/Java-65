@@ -1,0 +1,11 @@
+<web-app>
+ <display-name>Welcome to edureka!</display-name>
+ <servlet>
+   <servlet-name>lifeCycle</servlet-name>
+   <servlet-class>LifecycleServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+   <servlet-name>lifeCycle</servlet-name>
+   <url-pattern>/life</url-pattern>
+ </servlet-mapping>
+</web-app>
